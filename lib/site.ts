@@ -4,7 +4,9 @@ export const site = {
   tagline:
     "Full-house renovations, kitchens, TV backdrops and custom furniture. Pretoria & Johannesburg.",
 
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  // Production fallback — env var on Vercel overrides this at runtime
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://de-aviators.vercel.app",
+
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "27601089337",
   phoneDisplay: "060 108 9337",
   phoneTel: "+27601089337",
