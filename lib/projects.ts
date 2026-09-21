@@ -156,12 +156,12 @@ export const projects: Project[] = [
   { slug: "tv19", title: "TV backdrop 19",  category: "TV Backdrops", images: ["/work/tv19.jpeg"] },
   { slug: "tv20", title: "TV backdrop 20",  category: "TV Backdrops", images: ["/work/tv20.jpeg"] },
 
-  // ============================================================
+    // ============================================================
   // FULL-HOUSE
   // ============================================================
   {
     slug: "full1",
-    title: "Full-house renovation",
+    title: "Full-house renovation 01",
     category: "Full-house",
     images: [
       "/work/full1.jpeg",
@@ -181,6 +181,26 @@ export const projects: Project[] = [
       "/work/full1.14.jpeg",
       "/work/full1.15.jpeg",
       "/work/full1.16.jpeg",
+    ],
+  },
+  {
+    slug: "full2",
+    title: "Full-house renovation 02",
+    category: "Full-house",
+    images: [
+      "/work/full2.jpeg",
+      "/work/full2.1.jpeg",
+      "/work/full2.2.jpeg",
+      "/work/full2.3.jpeg",
+      "/work/full2.4.jpeg",
+      "/work/full2.5.jpeg",
+      "/work/full2.6.jpeg",
+      "/work/full2.7.jpeg",
+      "/work/full2.8.jpeg",
+      "/work/full2.9.jpeg",
+      "/work/full2.10.jpeg",
+      "/work/full2.11.jpeg",
+      "/work/full2.12.jpeg",
     ],
   },
 
